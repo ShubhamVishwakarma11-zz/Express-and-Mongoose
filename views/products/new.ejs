@@ -1,23 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <style>
-        body{
-            margin: 50px;
-        }
-
-        .HTML-Form {
-            width: 500px;
-        }
-    </style>
-    <title>Add a Product</title>
-</head>
+    <%- include('../partials/head')%>
 <body>
-    <h1> Add a new product </h1>
+    <h1 class="heading"> Add a new product </h1>
     <form action="/product" method="POST">
         <div class="form-group">
           <label for="name">Product Name</label>
